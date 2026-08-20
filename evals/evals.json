@@ -1,0 +1,46 @@
+{
+  "skill_name": "novel-writing-methodology",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "research-to-architecture",
+      "prompt": "I've spent two months researching a real corporate accounting scandal from the 90s (SEC filings, deposition transcripts, a couple of retrospective journalism pieces) because I want to write a novel loosely based on it. I have a folder full of PDFs and a rough idea that my protagonist should be a junior auditor who starts noticing irregularities. But every time I try to start writing, I end up just narrating what actually happened instead of it feeling like a story. Where do I even start?",
+      "expected_output": "Assistant should recognize this as a research-to-architecture transition rather than a research-organization problem alone. It should push the user toward a project contract (what should this do to a reader) and dramatic architecture questions (character desire/need, antagonistic force, information asymmetry, causality, the 'if this scene disappears what becomes impossible' test) rather than just proposing an outline or a research-filing system. It should also raise the idea that some research findings should deliberately never appear on the page (the fourth research bucket), since 'narrating what actually happened' is a classic symptom of that distinction being skipped. It should not immediately start drafting prose for the user.",
+      "files": [],
+      "assertions": [
+        "Response addresses what effect the story should have on the reader or the project's guiding question (a project-contract-style question), not just structural/outlining advice",
+        "Response explicitly raises dramatic-architecture concepts: character desire/need, an antagonistic force, or causality between events -- not just \"make an outline\"",
+        "Response distinguishes categories of research findings, including the idea that some researched material should deliberately never appear in the book",
+        "Response does not immediately write example prose or a draft scene for the user unprompted",
+        "Response poses some version of a scene/beat-necessity test (e.g. \"if this scene were cut, what becomes impossible later\")"
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "scene-diagnosis-information-audit",
+      "prompt": "Here's a scene I wrote: my main character Mara is having dinner with her dad and he mentions, almost in passing, that her mother had an affair years ago that Mara never knew about. I wrote three drafts and it still reads like it's just there to deliver the plot twist -- like a Wikipedia summary with dialogue tags. Can you help me figure out what's actually wrong with it, not just rewrite it for me?",
+      "expected_output": "Assistant should diagnose rather than immediately rewrite, honoring the user's explicit request. It should apply something like the information audit (distinguishing information necessary to the author vs. the character vs. the reader) to explain why the scene reads as expository, and/or raise character questions (what does the father want in this specific scene, what is he refusing to see, why is he revealing this now under what pressure) rather than treating the scene purely as an information-delivery problem. It should not simply hand back a polished rewritten version without first locating what's actually not working.",
+      "files": [],
+      "assertions": [
+        "Response does not simply hand back a rewritten version of the scene without first diagnosing the problem, honoring the user's explicit request",
+        "Response distinguishes information the author needs to track vs. what the character would know vs. what the reader needs, in some functionally equivalent form",
+        "Response asks or raises a specific question about the father character's motivation, pressure, or reason for revealing this now, rather than treating the scene purely as an information-delivery mechanism",
+        "Response names the scene's failure mode specifically (e.g. exposition-dump, plot-delivery-only) rather than only giving generic advice like \"show don't tell\""
+      ]
+    },
+    {
+      "id": 3,
+      "eval_name": "freeze-and-reader-feedback-triage",
+      "prompt": "My novel's basically done -- I've rewritten the opening chapter like six times over the last two weeks and I honestly don't think it's getting better anymore, just different. I sent it to three beta readers. Two of them said the ending felt rushed but neither could really explain why. One reader said my sister character Priya sounds exactly like the protagonist whenever they talk. I don't know which of this is actually worth acting on versus just, like, opinions.",
+      "expected_output": "Assistant should recognize the endless-rewriting pattern as a signal the manuscript should be frozen, and should triage the two pieces of reader feedback differently: the convergent-but-not-localized 'ending felt rushed' signal from two independent readers meets a legitimate reopening threshold even without a located cause, and should be investigated (ideally via something like a bounded procès) rather than dismissed for lack of a clear cause. The single-reader voice complaint about Priya should be treated as needing a voice-differentiation audit (something like a blind/anonymized dialogue comparison) rather than either dismissed as 'just one opinion' or acted on by guessing at a fix. The assistant should not tell the user to just keep polishing, and should not treat all three reader observations as equally weighted 'opinions.'",
+      "files": [],
+      "assertions": [
+        "Response identifies the repeated-rewriting-without-improvement pattern as a signal to stop and freeze rather than continue polishing",
+        "Response treats the two-reader convergent \"ending felt rushed\" signal as actionable/worth investigating even though neither reader could localize the cause",
+        "Response treats the single-reader Priya-voice complaint differently from the ending complaint -- recommends investigating/testing it (e.g. a voice comparison) rather than dismissing it as \"just one opinion\" or directly rewriting Priya's dialogue on the spot",
+        "Response does not tell the user to simply keep editing/polishing further as the main course of action",
+        "Response distinguishes what a reader reported experiencing from what the reader guessed caused it, at least implicitly"
+      ]
+    }
+  ]
+}

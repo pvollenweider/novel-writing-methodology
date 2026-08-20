@@ -1,0 +1,59 @@
+# Registers — templates and their justification
+
+Every register below exists only because it passed the one rule in `SKILL.md`: *what future decision will this let us make that we couldn't make as reliably without it?* That justification is stated for each one — if a project's version of a register can't answer that question, don't create it, regardless of what's listed here. These are templates to adapt, not a mandatory paperwork set.
+
+Keep every register as a plain, append-only log where practical (add entries, correct with visible strikethrough, never silently delete or rewrite history) — the record of a wrong turn has its own value, consistent with the Constitution's stance on observation before diagnosis.
+
+---
+
+### Source register (Phase 1)
+**Decision it enables:** whether a claim can be trusted enough to build plot on, versus needs independent confirmation before the story depends on it.
+- Source, reliability tier (primary/official, secondary-quality, unofficial compilation), what claim(s) it's used to support, access status (available / blocked / partial).
+
+### Findings register, four buckets (Phase 1)
+**Decision it enables:** what to actually write into the book versus deliberately keep out of it.
+- Plot-critical fact / comprehension material / verisimilitude detail / **known-but-not-shown** — one line each, with the bucket assignment stated (not left implicit).
+
+### Architecture map (Phase 2)
+**Decision it enables:** whether a beat earns its place before it's ever drafted, and whether the causal chain actually holds together.
+- Beat, causal link to prior beat(s), the mandatory question's answer ("if cut, what becomes impossible"), and — explicitly — whether any quantitative target mentioned is an estimate or (flagged, ideally never) a hard target.
+
+### Continuity register (Phase 2, checked through Phase 5-6)
+**Decision it enables:** catching silent drift in a fact established once, before a reader does.
+- Fact, where established, where it's referenced again (updated as the manuscript grows).
+
+### Character register (Phase 3)
+**Decision it enables:** whether a character's actions in a given scene are earned by what's already true of them, or require them to become someone else for the scene to work.
+- Character, the seven questions from Phase 3 (want-now / refuses to see / knows / wrongly believes / hides / would-do-under-pressure / relationship trajectory), updated as pilots and drafts test the answers.
+
+### Pilot log (Phase 4)
+**Decision it enables:** whether a mechanism is trusted enough to inform a canonical scene — and, for rejected pilots, what specifically not to repeat.
+- Hypothesis (stated before drafting), criteria (stated before drafting), verdict (pass/fail/indeterminate), one line why. Rejected pilots kept, not deleted.
+
+### Narrative audit findings (Phase 6)
+**Decision it enables:** whether a scene/chapter/act needs to go back to Phase 2, 3, or 5 — and specifically which.
+- Audit type (causality/character/information/tension/rhythm/artificiality/continuity), scale (scene/chapter/act/global), finding, evidence-doctrine category, proposed reopening (if any).
+
+### Factual claims inventory (Phase 7)
+**Decision it enables:** whether a specific factual claim can stand as written, or needs correction, or needs to be marked unresolved.
+- Claim, category (truth/plausibility/coherence/effectiveness), source and tier checked, verdict, risk ranking.
+
+### Reader-response log (Phase 8)
+**Decision it enables:** whether a reported effect meets the freeze reopening threshold — convergent across readers, or precisely localized by one.
+- Reader, question asked, response (near-verbatim), evidence-doctrine tag (reading effect vs. causal interpretation), and — kept separate — any solution the reader volunteered unprompted.
+
+### Freeze declaration (Phase 9)
+**Decision it enables:** what specifically counts as grounds for reopening, decided once, referred back to every time a reopening is considered, rather than re-litigated each time.
+- Date, the exact reopening threshold as stated (objectifiable error / convergent signal / precisely-localized single signal), what's explicitly declared as *not* meeting the threshold (a named example of a preference that doesn't qualify, if useful).
+
+### Procès log (Phase 9, ongoing)
+**Decision it enables:** whether a specific post-freeze correction is properly bounded, tested, and closed — and a record for any future procès to check against so scope doesn't silently creep across separate corrections.
+- One entry per procès: object (Step 1), candidate locations considered and rejected (Step 2), verification criteria (Step 3), execution and word count (Step 4), local-seam verification (Step 5), closure statement (Step 6). Include rejected procès outcomes (Step 3 criteria failed, no change made) with the same structure.
+
+### Methodology-error log (any phase)
+**Decision it enables:** preventing the same reasoning mistake from recurring silently across the project — this is the register most tempting to skip and most useful to keep.
+- What was claimed, why it was wrong, the correction (via visible strikethrough in the original note, referenced here), what to watch for next time.
+
+### Production changelog (Phase 10)
+**Decision it enables:** distinguishing a rendering/typography fix from a content edit, so production work never needs procès justification and content work is never smuggled in as "just a formatting fix."
+- What changed in output tooling/format, why, confirmation that the frozen source text itself was not touched.
