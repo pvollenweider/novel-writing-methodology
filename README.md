@@ -1,1 +1,0 @@
-# novel-writing-methodology
