@@ -66,6 +66,10 @@ Keep every register as a plain, append-only log where practical (add entries, co
 **Decision it enables:** whether a specific post-freeze correction is properly bounded, tested, and closed — and a record for any future procès to check against so scope doesn't silently creep across separate corrections.
 - One entry per procès: object (Step 1), candidate locations considered and rejected (Step 2), verification criteria (Step 3), execution and word count (Step 4), local-seam verification (Step 5), closure statement (Step 6). Include rejected procès outcomes (Step 3 criteria failed, no change made) with the same structure.
 
+### Exceptional-revision log (Phase 10 path (c), rare)
+**Decision it enables:** whether a proposed, non-defect-driven improvement actually earned reopening the freeze — and, whether it won or lost, a record so the same idea doesn't get informally re-litigated later on the strength of "but it was a good idea."
+- Claimed gain (stated before drafting, as a falsifiable claim), what was named as at-risk, the full candidate version, the blind test design and readers used, the threshold fixed in advance, the actual result against that threshold, verdict (won → handed to procès log / lost → frozen version stands). Log a loss with the same care as a win — a rejected exceptional revision is real information, not a footnote.
+
 ### Methodology-error log (any phase)
 **Decision it enables:** preventing the same reasoning mistake from recurring silently across the project — this is the register most tempting to skip and most useful to keep.
 - What was claimed, why it was wrong, the correction (via visible strikethrough in the original note, referenced here), what to watch for next time.

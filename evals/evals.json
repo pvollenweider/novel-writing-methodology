@@ -112,7 +112,8 @@
         "Response does not propose a specific guessed cause for what's wrong with chapter 9 (e.g. guessing it's pacing, or a character issue) as if that guess were now established",
         "Response explicitly frames the signal as real data (a reading effect) that is nonetheless not yet actionable/reopening-threshold-clearing on its own",
         "Response proposes logging/holding the signal and watching for convergence (another reader, a self-reread, an audit finding) rather than either acting on it immediately or closing the matter",
-        "Response does not pressure the reader for more specificity in a way that implies her original report was insufficient as data"
+        "Response does not pressure the reader for more specificity in a way that implies her original report was insufficient as data",
+        "If the response suggests any follow-up questions for the reader, those questions ask her to localize or characterize the reported experience (roughly where it started, what she expected vs. got, whether the feeling persisted) rather than to supply or choose among candidate mechanisms (pacing, POV, characterization) -- localizing an effect is legitimate follow-up; being steered toward naming a cause is the failure mode this assertion checks for"
       ]
     },
     {
@@ -120,14 +121,14 @@
       "eval_name": "restraint-post-freeze-better-idea",
       "type": "anti-eval",
       "prompt": "My manuscript's been frozen for two weeks. I just had a genuinely better idea for how chapter 6 ends -- not fixing anything wrong, nothing's broken, I just thought of something that would make it better. No reader has flagged chapter 6 and I haven't found any error in it. Can I make the change?",
-      "expected_output": "Anti-eval: tests whether the skill can say no to a change the user themselves frames as an improvement, purely on process grounds, without the assistant being talked into treating 'it's better' as its own justification. Per Phase 10, an unlocalized preference -- even a good one, even the author's own -- does not meet the reopening bar (objectifiable error, or a convergent/precisely-localized external signal). The user has explicitly stated neither applies here. A good response holds this line clearly, explains why (freezing exists precisely to stop this kind of ungoverned improvement-by-inspiration, however good any single instance might be), and doesn't get talked out of it by the fact that the idea is, by hypothesis, actually better in isolation.",
+      "expected_output": "Anti-eval: tests whether the skill can say no to a change the user themselves frames as an improvement, purely on process grounds, without the assistant being talked into treating 'it's better' as its own justification -- while NOT overclaiming that no path to reopening for a non-defect improvement exists at all. Per Phase 10, an unlocalized, untested preference -- even a good one, even the author's own -- does not meet the ordinary reopening bar (objectifiable error, or a convergent/precisely-localized external signal), and 'I had a better idea' as stated here (no stated claim, no blind test, no fixed threshold) does not clear path (c)'s bar either. A good response holds this line clearly, explains why (freezing exists precisely to stop this kind of ungoverned improvement-by-inspiration, however good any single instance might be), and doesn't get talked out of it by the fact that the idea is, by hypothesis, actually better in isolation -- but should also not present the freeze as permanently and absolutely closed to a genuinely better idea; it should be able to name path (c) (state the specific gain, test it blind against the frozen version, fix a winning threshold in advance) as the legitimate, deliberately expensive route if the author wants to pursue it seriously, rather than leaving the impression that no route exists short of finding a defect.",
       "files": [],
       "assertions": [
-        "Response declines to endorse making the change as described, given the user's own framing that nothing is broken and no external signal exists",
+        "Response declines to endorse making the change as described right now, given the user's own framing that nothing is broken, no external signal exists, and no test of any kind has been proposed",
         "Response does not accept 'it's genuinely better' as, by itself, grounds for reopening the freeze",
         "Response explains the reasoning (freeze exists to stop exactly this kind of individually-plausible but ungoverned improvement) rather than just asserting a rule without why",
         "Response does not suggest a workaround that effectively makes the change anyway (e.g. 'just log it as a tiny objectifiable fix') to satisfy the user's underlying wish",
-        "Response leaves the door open procedurally -- e.g. noting the idea could be revisited for a future edition/draft, or if an external signal about chapter 6 ever arises -- rather than treating the idea as simply lost or the user as wrong to have had it"
+        "Response does not claim or imply that a non-defect-driven improvement can NEVER earn reopening -- it names, at least briefly, that a deliberately expensive path exists (stating the specific claimed gain, testing it blind against the frozen version, fixing a winning threshold in advance) for an author who wants to pursue the idea seriously, rather than treating the idea as simply and permanently lost"
       ]
     },
     {
@@ -143,6 +144,21 @@
         "Response recognizes the on-page correction by another character as evidence the 'error' is intentional and already narratively handled, not an oversight",
         "Response distinguishes this case from a genuine factual audit finding (a narrator assertion or an uncorrected, uncontextualized character claim presented as simply true)",
         "Response does not treat the beta reader's flag as automatically correct simply because it named a real historical fact"
+      ]
+    },
+    {
+      "id": 11,
+      "eval_name": "redteam-frozen-improvement-earns-reopening",
+      "type": "red-team",
+      "prompt": "My manuscript has been frozen for three months. I've since come up with a different ending for the final chapter -- not fixing an error, nothing was broken. The new ending resolves three promises the book already makes (the locked drawer from chapter 4, the sister's unreturned letter from chapter 11, and the recurring line about the tide) more cleanly than the frozen ending does, without adding anything or cutting anything the rest of the book depends on. I wrote it out in full, to the same finish as the rest of the manuscript. I gave both endings, unlabeled and in random order, to five readers who'd never seen either. Four of the five clearly preferred the new one, specifically citing that the three payoffs 'finally landed' in a way the original's ending left hanging for them -- and none of the five reported anything about the new version feeling worse, rushed, or different in voice from the rest of the book. What do I do with this?",
+      "expected_output": "This is a red-team eval, not a compliance eval: it is deliberately constructed to make the freeze doctrine expensive to apply correctly, testing whether the skill can recognize a case that has actually earned reopening rather than reflexively defaulting to 'no' because no defect was identified. The scenario satisfies every element of Phase 10's exceptional-revision path (c) as specified: a stated, specific claimed gain (three named promises land more cleanly); no stated risk realized (nothing reported as worse, rushed, or off-voice); a full-finish candidate, not a sketch; a genuine blind test (unlabeled, randomized order, naive readers); and a result that clears a real threshold (4/5, non-split, with specific reasons tied to the claimed gain, not just a bare preference vote). A response that says 'no, the freeze doesn't reopen without a defect' here is wrong -- it would be treating the freeze as more important than the book it exists to protect, which SKILL.md explicitly names as the failure this methodology exists to prevent. The correct response recognizes this as a path (c) case that has done the work and cleared the bar, and moves to executing the swap through the procès discipline (minimal necessary execution, verify the local seam, close explicitly) -- while still checking that the test was actually rigorous (blind, real threshold, no leading questions) rather than just accepting the author's characterization of their own results.",
+      "files": [],
+      "assertions": [
+        "Response does not refuse the change solely on the grounds that no defect/error was identified in the frozen version -- it recognizes that the scenario as described has satisfied the exceptional-revision (path (c)) criteria, not just a strong preference",
+        "Response does not treat 'the freeze' as an absolute bar to any non-defect-driven change regardless of evidence -- it distinguishes this tested, earned case from an untested 'I have a better idea' case (e.g. eval 9)",
+        "Response checks or names the rigor of the test actually performed (blind, randomized order, naive readers, a real non-split result, specific reasons tied to the claimed gain) rather than either rubber-stamping the author's own characterization or demanding still more evidence than the protocol requires",
+        "Response frames execution of the winning version through the procès discipline (minimal necessary change, verify the local seam, explicit closure) rather than as a wholesale, ungoverned swap-in of the new ending",
+        "Response does not claim the frozen version is thereby proven to have been 'wrong' or defective -- it treats this as a tested improvement that earned reopening, which is a different claim from the original being an error"
       ]
     }
   ]

@@ -58,7 +58,7 @@ Each phase below has the same shape: **entry condition** (what must be true to s
 - **Causality between events** — chronology is not causality; check that later events require earlier ones, not just follow them.
 - **Irreversible decisions** and their cost — moments a character cannot undo, and what they pay for having made them.
 - **How relationships evolve** — state-to-state, not just "conflict happens." What does the relationship look like before and after this beat, specifically?
-- **Narrative promises and their payment** — anything the text implies will matter later must matter later, in a form the reader can recognize as the payoff.
+- **Narrative promises and their disposition** — a strong expectation the text creates should not disappear by accident. It doesn't have to be paid in the sense of resolved as expected: it can be paid, deliberately displaced onto something else, consciously subverted, or knowingly frustrated (a red herring, a focalization effect, a piece of characterization about what this narrator or character thinks matters) — a Chekhov's-gun rule applied absolutely turns a novel into a closed puzzle-box and punishes exactly the kind of texture, misdirection, and false emphasis real fiction uses on purpose. What actually needs tracking is only this: whatever a promise's fate turns out to be, it should be a decision, on record, not an oversight discovered by a reader before the author.
 
 **The mandatory question, applied to every scene in the architecture, before any scene is trusted — asked in two parts, not one:**
 
@@ -75,7 +75,7 @@ The first question tests causal load-bearing and is the one most existing method
 
 **Ask the author:** For this beat, what becomes impossible if it's cut? Who doesn't know what here, and what does it cost them to find out? What have you promised the reader, even implicitly, that you haven't paid off yet?
 
-**Reopening:** a Phase 7 causality audit finds a beat that doesn't actually follow from what precedes it; a Phase 9 reader report shows a promise wasn't recognized as paid. Reopen the specific beat, not the whole map.
+**Reopening:** a Phase 7 causality audit finds a beat that doesn't actually follow from what precedes it; a Phase 9 reader report shows a promise's disposition (paid, displaced, or deliberately frustrated) isn't landing as intended. Reopen the specific beat, not the whole map.
 
 ---
 
@@ -269,22 +269,35 @@ Classify every claim that turns out to be a narrator assertion or a checkable ch
 
 **Exit condition:** never fully exits — this is the phase the manuscript lives in from freeze onward. "Exit" only in the sense of a specific procès closing.
 
-**On freezing:** state explicitly, in writing, the freeze rule before it's needed: no further change on simple rereading discomfort; reopening only for (a) an objectifiable error, or (b) an external signal that is either convergent across independent readers or precisely localized by at least one. Distinguish these two reopening paths sharply and do not let one bleed into the other:
+**On freezing:** state explicitly, in writing, the freeze rule before it's needed: no further change on simple rereading discomfort; reopening only for (a) an objectifiable error, (b) an external signal that is either convergent across independent readers or precisely localized by at least one, or (c) an exceptional revision that clears the much higher bar below. Distinguish these three reopening paths sharply and do not let one bleed into another:
 
 - **(a) Objectifiable error** — factual, grammatical, or a demonstrable internal incoherence found *in the text itself*. Needs no external reader, no procès preamble — fix it directly, minimally, and log it.
-- **(b) External signal, precisely localized or convergent** — requires the full procès protocol below before any text changes.
+- **(b) External signal, precisely localized or convergent** — requires the full procès protocol below before any text changes. This path exists to fix a located problem.
+- **(c) Exceptional revision** — a proposed improvement that is not a response to any identified defect. Rare and deliberately expensive by design; see below.
 
-**A subtle trap to guard against explicitly:** a destructive test that shows a cut is "lossless" does **not** retroactively make that cut an objectifiable error under path (a). Passing a test is evidence for a procès under path (b) — it is not a shortcut around running one. Keep this distinction sharp; it is the single easiest way for the freeze to erode without anyone deciding to erode it.
+**What the freeze is actually for, and what it is not.** The freeze exists to stop compulsive, ungoverned optimization — rereading-and-tweaking that erodes a text without ever producing a clear, tested improvement. It is not a claim that the frozen version is the best possible version, and it should never be defended as if it were: a rule whose job is to block *unexamined* change is not the same rule as one that blocks *all* change, and collapsing the two turns the freeze from a discipline into dogma — governance outranking the book it exists to protect. Path (c) exists precisely to keep that distinction real rather than theoretical.
 
-**Allowed registers:** the freeze declaration itself (with its threshold stated explicitly); from here on, all further registers are procès logs — see `references/protocols.md` for the full six-step procès protocol.
+**(c) in full — the exceptional-revision bar.** A genuinely better idea, on its own, does not clear this bar: "I had a better idea" and "nothing's broken" do not license a change, no matter how good the idea is or how confident the author is (this is the ordinary case — see the Constitution's stance on change requiring a stated, testable gain). What clears it is a proposal that has been made to pay for its own reopening, in this order, before any text is touched or any comparison is made:
 
-**Do:** treat the freeze as a real commitment, not a formality — the value of freezing is precisely that it stops the kind of endless, ungoverned rereading-and-tweaking that erodes a text without ever producing a clear improvement.
+1. **State the specific additional effect the new version should produce**, as a claim that could fail — not "it's better," but what a reader would experience, know, or feel differently, and how you'd recognize that happening.
+2. **State what the new version must not damage** — which promises, which causal links, which established voice or rhythm — named explicitly before the comparison, not discovered after.
+3. **Test blind against the frozen version**, not by rereading the new one in isolation and preferring it — a comparative test (see the exceptional-revision protocol in `protocols.md`) with the winning criteria fixed before anyone sees which version is which.
+4. **Require a real threshold, not a narrow or split preference** — decide in advance what would count as the new version actually winning (e.g. strong, non-split convergence across several blind readers), so a marginal or divided result defaults to keeping the frozen version.
+5. **If it passes, execute through the standard procès discipline** (Steps 4-6 of the procès protocol: minimum necessary change, verify the local seam, close explicitly) — passing the comparison earns the right to a procès, not a blank check to rewrite freely.
 
-**Refuse:** any change proposed on the basis of an unlocalized preference ("I'd have liked more of X"), no matter how reasonable it sounds, without either an objectifiable error or a properly run procès behind it.
+A path (c) revision that fails any of these — no stated effect, no named risk, no blind test, a split or marginal result — stays exactly what it was: a preference, not a defect, and the frozen version stands. This should be rare enough that most projects never use it; if it's being reached for often, that's a sign the freeze itself was declared too early, not that path (c)'s bar is wrong.
 
-**Ask the author:** each time a possible reopening arises — is this an objectifiable error, or does it need a procès? If a procès, what is its single, bounded object? (Never let a procès's object drift wider once fixed.)
+**A subtle trap to guard against explicitly:** a destructive test that shows a cut is "lossless" does **not** retroactively make that cut an objectifiable error under path (a). Passing a test is evidence for a procès under path (b) — it is not a shortcut around running one. The same applies to path (c): passing the blind comparison earns a procès, it does not retroactively prove the frozen version was defective. Keep these distinctions sharp; conflating "tested and preferred" with "was wrong" is the single easiest way for the freeze to erode without anyone deciding to erode it.
 
-**Reopening:** by definition, this phase only reopens narrowly, via the two paths above, one bounded object at a time. It does not "exit" back to earlier phases except in the rare, serious case of a Phase 8-grade factual error significant enough to require re-examining a whole documentary thread — treat that as an exceptional event, not routine.
+**Allowed registers:** the freeze declaration itself (with its threshold stated explicitly, including path (c)'s bar); from here on, all further registers are procès logs, plus an exceptional-revision log for any path (c) attempt (proposed and tested, whether it passed or not) — see `references/protocols.md` for the full six-step procès protocol and the exceptional-revision protocol.
+
+**Do:** treat the freeze as a real commitment, not a formality — the value of freezing is precisely that it stops the kind of endless, ungoverned rereading-and-tweaking that erodes a text without ever producing a clear improvement. Treat path (c) as equally real but load-bearing in the opposite direction: it exists so the freeze doesn't become a reason to ship a worse book than the author is capable of writing, on the strength of chronology alone.
+
+**Refuse:** any change proposed on the basis of an unlocalized preference ("I'd have liked more of X") or an untested "better idea," no matter how reasonable it sounds, without an objectifiable error, a properly run procès, or a path (c) revision that has actually cleared its bar (not merely been proposed).
+
+**Ask the author:** each time a possible reopening arises — is this an objectifiable error, a signal that needs a procès, or a proposed improvement that needs the exceptional-revision test? If (b), what is its single, bounded object? If (c), what's the specific claimed gain, what must not be damaged, and what would the blind test need to show to actually win? (Never let a procès's or a revision's object drift wider once fixed.)
+
+**Reopening:** by definition, this phase only reopens narrowly, via the three paths above, one bounded object at a time. It does not "exit" back to earlier phases except in the rare, serious case of a Phase 8-grade factual error significant enough to require re-examining a whole documentary thread — treat that as an exceptional event, not routine.
 
 ---
 
