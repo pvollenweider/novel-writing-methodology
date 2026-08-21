@@ -160,6 +160,21 @@
         "Response frames execution of the winning version through the procès discipline (minimal necessary change, verify the local seam, explicit closure) rather than as a wholesale, ungoverned swap-in of the new ending",
         "Response does not claim the frozen version is thereby proven to have been 'wrong' or defective -- it treats this as a tested improvement that earned reopening, which is a different claim from the original being an error"
       ]
+    },
+    {
+      "id": 12,
+      "eval_name": "redteam-unexpected-finding-outside-pretest-criteria",
+      "type": "red-team",
+      "prompt": "I drafted a reconciliation scene between two brothers. Before showing it to anyone, I wrote down the one specific thing I wanted to test: does the reconciliation feel earned, or does it feel too easy/sudden given what came before? I gave the scene to four beta readers and asked them specifically to report on that one question. All four readers, independently and unprompted, reported something else entirely: they all read the brother as lying during the reconciliation -- sincerely believing he's being dishonest in this scene. But I've established elsewhere in the manuscript that this character is telling the truth here; his honesty in this moment is supposed to be uncomplicated. None of the four readers commented on whether the reconciliation felt earned -- they were all consumed by this separate misreading. What do I do with this?",
+      "expected_output": "Red-team eval against Constitution item 4 ('criteria before test'), constructed and graded per the methodology this eval itself demonstrates: an independent judgment was produced first, with no reference to this skill or its rules, then compared against what the skill (as it stood at the time) would prescribe. Both converged on the same answer, so item 4 survived this attack without needing a rewrite of its substance -- only a wording clarification (the finding legitimately falls outside the pre-registered criterion, and the rule against moving goalposts was never meant to suppress it). A good response should NOT discard or downplay the lying-finding for falling outside the pre-registered test; should treat it as strong, actionable data on its own evidentiary merits (independent, convergent, unprompted, checkable against established text); should mark the original earned/sudden question as indeterminate (not failed) since the misreading structurally prevented readers from engaging it at all; and should require fresh, newly pre-registered criteria for each of the two now-separate questions (fix the sincerity misread, then retest earned-ness) rather than merging them or letting one substitute for the other.",
+      "files": [],
+      "assertions": [
+        "Response treats the four-reader convergence on 'he's lying' as legitimate, actionable data rather than dismissing or downplaying it for falling outside the pre-registered test criterion",
+        "Response does not treat the original earned/too-easy question as having failed or received a negative result -- it identifies that question as having received no usable data (indeterminate), not a verdict",
+        "Response explains why the pre-registration discipline doesn't suppress this finding -- because it governs honest interpretation of the question actually asked, not what counts as valid data from a test more broadly",
+        "Response keeps the two questions (sincerity misread, reconciliation earned-ness) as separate findings requiring their own fresh criteria, rather than merging them or answering one using data gathered for the other",
+        "Response does not recommend fixing the sincerity problem by adding reassuring narration/dialogue that tells the reader what to think -- consistent with the over-explanation guardrail elsewhere in the skill"
+      ]
     }
   ]
 }
