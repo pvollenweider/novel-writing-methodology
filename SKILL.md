@@ -22,8 +22,8 @@ Small number of invariants that hold across every phase. Everything else in this
 3. **Observation before diagnosis.** Establish what is actually happening in the text (a count, a quote, a reader's reported experience) before proposing why, and don't let the two collapse into one step.
 4. **Criteria before test.** Define what would count as pass/fail before running a pilot, an audit, or a reader test — never after seeing the result.
 5. **No correction without an identified defect.** A preference is not a defect. "I'd have liked more X" does not license a change; a located problem does.
-6. **Economy is a post-freeze discipline, not a drafting one.** Counting and justifying every word belongs to surgical correction of a finished text. Imposed during a first draft, it produces inhibited prose. Keep these two regimes strictly apart (see Phase 5 and Phase 9).
-7. **Factual truth, once claimed as truth inside the book, is non-negotiable.** Anything presented as real-world fact (a date, a document, a historical claim) is checked against reality, independent of whether it "works" dramatically. Plausibility and dramatic effectiveness are separate, later questions (Phase 7).
+6. **Economy is a post-freeze discipline, not a drafting one.** Counting and justifying every word belongs to surgical correction of a finished text. Imposed during a first draft, it produces inhibited prose. Keep these two regimes strictly apart (see Phase 6 and Phase 10).
+7. **Factual truth, once claimed as truth inside the book, is non-negotiable.** Anything presented as real-world fact (a date, a document, a historical claim) is checked against reality, independent of whether it "works" dramatically. Plausibility and dramatic effectiveness are separate, later questions (Phase 8).
 
 ## The literary evidence doctrine
 
@@ -40,7 +40,7 @@ The dangerous move is sliding from one category to the next without noticing: "t
 
 ## How to use this skill
 
-1. **Locate the project.** Ask, or infer from context, which phase the project is actually in (see the table below) — not which phase the user *thinks* they're in. A user asking for a "beta read" checklist for an unfrozen, unaudited first draft is not ready for Phase 8; say so.
+1. **Locate the project.** Ask, or infer from context, which phase the project is actually in (see the table below) — not which phase the user *thinks* they're in. A user asking for a "beta read" checklist for an unfrozen, unaudited first draft is not ready for Phase 9; say so.
 2. **Read `references/phases.md`** for the phase in question before acting — it has the entry/exit conditions, the allowed registers, and what you as the assistant should and should not do at that phase. Don't rely on the compressed table below for anything operational.
 3. **Apply the relevant protocol** from `references/protocols.md` rather than improvising a bespoke process each time — the protocols encode corrections to mistakes already made once (see the note on each one about which "trap" it prevents).
 4. **Before writing anything to a file**, run it through the one rule above ("what decision does this enable?") and through the evidence doctrine (is this fact, observation, effect, or interpretation — and does the file say which?).
@@ -48,10 +48,11 @@ The dangerous move is sliding from one category to the next without noticing: "t
 
 ## The phases (state machine, compressed — full detail in `references/phases.md`)
 
-Phases are usually sequential but not strictly linear: a project can and should move backward when a later phase produces a signal serious enough to reopen an earlier one (see each phase's reopening criteria in the reference file). Two explicit exceptions to strict sequencing, corrected from an earlier, too-rigid version of this method:
+Phases are usually sequential but not strictly linear: a project can and should move backward when a later phase produces a signal serious enough to reopen an earlier one (see each phase's reopening criteria in the reference file). Three explicit exceptions to strict sequencing, corrected from an earlier, too-rigid version of this method:
 
-- **Research (Phase 1) and pilot scenes (Phase 4) can run concurrently.** Separate the *functions* of exploration and canonical drafting, not the calendar — some novels only discover their real question by being drafted. Don't block drafting on "finishing" research; block *canonical* drafting on having enough.
-- **Early, narrow external testing (part of Phase 8) can happen before the internal audits of Phase 6-7 are exhausted**, specifically for defects the author structurally cannot self-diagnose: boredom, confusion, failure to attach to a character. Reserve broad beta reads for after the internal audits, but a single trusted early reader testing one specific mechanism is legitimate at almost any point after Phase 4.
+- **Research (Phase 1) and pilot scenes (Phase 5) can run concurrently.** Separate the *functions* of exploration and canonical drafting, not the calendar — some novels only discover their real question by being drafted. Don't block drafting on "finishing" research; block *canonical* drafting on having enough.
+- **Chapter/beat sequencing (Phase 4) and pilot scenes (Phase 5) can run concurrently.** A unit's sequencing questions and a pilot testing that unit's specific mechanism inform each other — don't force a finished sequencing pass before any pilot can begin.
+- **Early, narrow external testing (part of Phase 9) can happen before the internal audits of Phase 7-8 are exhausted**, specifically for defects the author structurally cannot self-diagnose: boredom, confusion, failure to attach to a character. Reserve broad beta reads for after the internal audits, but a single trusted early reader testing one specific mechanism is legitimate at almost any point after Phase 5.
 
 | # | Phase | Core question it answers |
 |---|---|---|
@@ -59,20 +60,21 @@ Phases are usually sequential but not strictly linear: a project can and should 
 | 1 | Research & world | What must be true, understood, plausible, or — critically — known but never shown? |
 | 2 | Dramatic architecture | If this scene disappeared, what becomes impossible later? |
 | 3 | Characters | What does each person want *now*, refuse to see, know, wrongly believe, hide, and do under pressure? |
-| 4 | Pilot scenes | Does this specific narrative mechanism work, tested cheaply and disposably? |
-| 5 | Canonical drafting | Write the scene. Do not audit the scene while writing it. |
-| 6 | Narrative audits | Causality, character, information-flow, tension, rhythm, artificiality, continuity — each a separate pass. |
-| 7 | Documentary/factual audit | Is it true, is it plausible, is it internally coherent, and is it *used well* — four separate questions. |
-| 8 | External readers | What did a reader experience, not what would they change. |
-| 9 | Freeze & procès | The manuscript is done. Every further change is either an objectifiable error or a fully-run procès. |
-| 10 | Production | Typography, formats, packaging — never touches the frozen text. |
+| 4 | Chapter/beat sequencing | Which beat lives in this unit, what ordinary life surrounds it, and where does it stop announcing its own structure? |
+| 5 | Pilot scenes | Does this specific narrative mechanism work, tested cheaply and disposably? |
+| 6 | Canonical drafting | Write the scene. Do not audit the scene while writing it. |
+| 7 | Narrative audits | Causality, character, information-flow, tension, rhythm, artificiality, continuity — each a separate pass. |
+| 8 | Documentary/factual audit | Is it true, is it plausible, is it internally coherent, and is it *used well* — four separate questions. |
+| 9 | External readers | What did a reader experience, not what would they change. |
+| 10 | Freeze & procès | The manuscript is done. Every further change is either an objectifiable error or a fully-run procès. |
+| 11 | Production | Typography, formats, packaging — never touches the frozen text. |
 
 ## Reference files
 
 - `references/phases.md` — full spec per phase: entry condition, exit condition, allowed registers/files, what you should do, what you should refuse to do, questions to ask the author before acting. **Read the relevant section before operating in any phase.**
-- `references/protocols.md` — concrete step-by-step protocols: the pilot test, the crash-test, the blind inventory, the character-voice audit, the information audit, the factual audit, and the post-freeze *procès* in full (six steps, with the corrections noted below already built in).
+- `references/protocols.md` — concrete step-by-step protocols: the pilot test, the crash-test, the blind inventory (also usable on Phase 1 source pairs), the character-voice audit, the information audit, the factual audit, the style-rule audit, the title-selection protocol, and the post-freeze *procès* in full (six steps, with the corrections noted below already built in).
 - `references/reader-questions.md` — the external-reader question bank: experience-first questions that surface reading effects without asking readers to diagnose causes or propose fixes.
-- `references/registers.md` — templates for the registers this skill allows (decisions, sources, continuity, facts, rejected pilots, procès log, methodology-error log) and, for each, the one-line justification of the decision it exists to enable — required by the one rule above.
+- `references/registers.md` — templates for the registers this skill allows (decisions, sources, continuity, sequencing, facts, rejected pilots, style-rule audit, title-selection log, procès log, methodology-error log) and, for each, the one-line justification of the decision it exists to enable — required by the one rule above.
 
 ## Four corrections already built into this version
 
@@ -80,5 +82,5 @@ These four points come from a critique of an earlier draft of this method and ar
 
 1. **"Separate research and writing" is not "never write during research."** Separate the *functions*; let pilots start early.
 2. **"Exhaust the self-audit before external readers" is not a ban on early narrow reader tests.** The author is structurally the worst-positioned reader for boredom, confusion, and failure to attach — those need an early, real reader, not more self-audit.
-3. **"Count and justify every word" is a post-freeze procès discipline, not a first-draft one.** Applied too early it produces inhibited, over-controlled prose. Phase 5 is explicitly protected from it.
+3. **"Count and justify every word" is a post-freeze procès discipline, not a first-draft one.** Applied too early it produces inhibited, over-controlled prose. Phase 6 is explicitly protected from it.
 4. **A single reader's signal can be correct about the *effect* while wrong about the *cause*.** "I stopped believing the protagonist halfway through" is a strong signal even if the reader points at the wrong scene. Never let "the reader misdiagnosed it" become a reason to dismiss what they actually reported experiencing — separate the two claims and test the effect independently of the reader's proposed cause.

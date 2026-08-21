@@ -30,4 +30,4 @@ Use these only after the core pass, and only to clarify an effect already report
 
 Transcribe close to verbatim before synthesizing anything — see `registers.md` for the reader-response log format. Tag each piece of the response by evidence-doctrine category (reading effect vs. causal interpretation) as it's recorded, not after the fact during synthesis; retroactive tagging is where the effect/cause distinction quietly gets lost.
 
-When two readers diverge on the same point, record both fully rather than averaging or picking the more articulate one — a genuine split is itself a finding (see Phase 8 in `phases.md`).
+When two readers diverge on the same point, record both fully rather than averaging or picking the more articulate one — a genuine split is itself a finding (see Phase 9 in `phases.md`).

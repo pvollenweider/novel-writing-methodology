@@ -12,7 +12,9 @@ Each phase below has the same shape: **entry condition** (what must be true to s
 
 **Allowed registers:** a project contract note. One document, short, revisited only when a later phase produces a reason to revise it (rare — treat contract changes as a big deal).
 
-**Do:** ask the author to state the book's effect on a reader in one sentence before anything else; push back if the answer is a subject ("a novel about grief") rather than an effect ("a reader who finishes this should no longer trust their own account of why they forgave someone"). Write down what stays undecided as explicitly as what's decided.
+**Do:** ask the author to state the book's effect on a reader in one sentence before anything else; push back if the answer is a subject ("a novel about grief") rather than an effect ("a reader who finishes this should no longer trust their own account of why they forgave someone"). Write down what stays undecided as explicitly as what's decided. If it helps calibrate register or technique, naming one or two comparable published works and what specifically they do well for this project is a legitimate, lightweight part of this phase — an appendix to the contract note, not a separate register; the point is a working reference for technique, not a literature review.
+
+**On the title and author-name specifically:** these are legitimate to leave undecided here (see the exit condition), but they don't resolve themselves by default — they need their own deliberate decision eventually. The title has its own protocol (`protocols.md`, title-selection protocol), typically run near the freeze (Phase 10). Attribution (real name, pseudonym, anonymous) is a separate decision from the title — don't let a production or packaging default (Phase 11) silently answer either one.
 
 **Refuse:** to proceed to architecture or drafting without at least an informal answer to "what is this trying to do to a reader." A subject is not a contract.
 
@@ -32,11 +34,11 @@ Each phase below has the same shape: **entry condition** (what must be true to s
 
 **Do:** grade sources by reliability tier (primary/official, secondary-quality, unofficial compilation) and never let a low-tier source carry a claim that needs a high-tier one. Pre-register what a piece of research is being used to test *before* reading it, where practical — this limits the temptation to read sources into confirming what's already assumed. Document access limits (a blocked source, an unverifiable claim) as findings, not as gaps to quietly paper over later.
 
-**Refuse:** to treat "I found more information" as itself a reason to keep researching — the exit condition is about reversals, not volume. Refuse to let research run concurrently with *canonical* drafting (Phase 5) without an explicit decision that a specific fact is now locked; exploratory pilots (Phase 4) are fine to run in parallel with ongoing research, canonical text is not.
+**Refuse:** to treat "I found more information" as itself a reason to keep researching — the exit condition is about reversals, not volume. Refuse to let research run concurrently with *canonical* drafting (Phase 6) without an explicit decision that a specific fact is now locked; exploratory pilots (Phase 5) are fine to run in parallel with ongoing research, canonical text is not.
 
 **Ask the author:** Of everything you've found, what changed your mind about the story, versus what just supports what you already assumed? What have you learned that you suspect should never actually appear on the page?
 
-**Reopening:** a later audit (Phase 6 or 7) surfaces a fact the story depends on that was never actually verified — reopen narrowly, verify that one fact, close again. Don't let a narrow reopening become a general re-research pass.
+**Reopening:** a later audit (Phase 7 or 7) surfaces a fact the story depends on that was never actually verified — reopen narrowly, verify that one fact, close again. Don't let a narrow reopening become a general re-research pass.
 
 ---
 
@@ -66,11 +68,11 @@ Each phase below has the same shape: **entry condition** (what must be true to s
 
 **Do:** build in "residue" deliberately — something in a scene that serves no plot function, so that a reader attentive enough to spot the machine can't reliably tell load-bearing information from texture just by noticing which details get narrative weight.
 
-**Refuse:** to treat a fully mapped architecture as a chapter outline. The map is a causal skeleton, not a table of contents — the actual chapter boundaries get discovered during Phase 4-5, and forcing the map's granularity onto the manuscript produces exactly the over-planned, machine-visible feeling this phase exists to prevent.
+**Refuse:** to treat a fully mapped architecture as a chapter outline. The map is a causal skeleton, not a table of contents — the actual chapter boundaries get discovered during Phase 4 (sequencing) and tested in Phase 5-6, and forcing the map's granularity onto the manuscript produces exactly the over-planned, machine-visible feeling this phase exists to prevent.
 
 **Ask the author:** For this beat, what becomes impossible if it's cut? Who doesn't know what here, and what does it cost them to find out? What have you promised the reader, even implicitly, that you haven't paid off yet?
 
-**Reopening:** a Phase 6 causality audit finds a beat that doesn't actually follow from what precedes it; a Phase 8 reader report shows a promise wasn't recognized as paid. Reopen the specific beat, not the whole map.
+**Reopening:** a Phase 7 causality audit finds a beat that doesn't actually follow from what precedes it; a Phase 9 reader report shows a promise wasn't recognized as paid. Reopen the specific beat, not the whole map.
 
 ---
 
@@ -92,17 +94,46 @@ Each phase below has the same shape: **entry condition** (what must be true to s
 
 **Allowed registers:** a living character register organized around these seven questions, updated as the manuscript reveals what's actually true of a character in practice (a character's answers can and should shift as pilots and drafts test them — that's a feature, not drift to be corrected).
 
-**Do:** treat contradictions between what a character says about themselves and what question 6 (pressure-tested) reveals as material, not as errors to fix — that gap is frequently the actual story. Use dialogue/voice differentiation as a *check* on this register (if two characters are interchangeable in what they want and refuse to see, that will show up as interchangeable voices in Phase 6).
+**Do:** treat contradictions between what a character says about themselves and what question 6 (pressure-tested) reveals as material, not as errors to fix — that gap is frequently the actual story. Use dialogue/voice differentiation as a *check* on this register (if two characters are interchangeable in what they want and refuse to see, that will show up as interchangeable voices in Phase 7).
 
 **Refuse:** to accept a character trait ("she's stubborn," "he's passive") as an answer to any of the seven questions — push for the specific instance: stubborn about what, refusing to see what, right now.
 
 **Ask the author:** What does this character want in this specific scene, separate from what they want in the book overall? What would surprise even them about what they'd do here under real pressure?
 
-**Reopening:** a Phase 6 audit finds two characters functionally indistinguishable, or a decision in Phase 5 that a character "wouldn't do that" without a clear reference for what they would do — reopen for that character specifically.
+**Reopening:** a Phase 7 audit finds two characters functionally indistinguishable, or a decision in Phase 6 that a character "wouldn't do that" without a clear reference for what they would do — reopen for that character specifically.
 
 ---
 
-## Phase 4 — Pilot scenes
+## Phase 4 — Chapter/beat sequencing
+
+**Entry condition:** Phase 2 architecture exists at least in draft — a causal skeleton of beats, not yet a table of contents.
+
+**Exit condition:** every beat has been assigned to a concrete narrative unit (chapter, section) with an answer to the four questions below, and the skeleton itself has stopped being visible in the assignment — see "Refuse" below.
+
+**Why this is its own phase, not part of architecture or drafting:** the architecture map (Phase 2) is deliberately not a chapter outline — forcing its granularity directly onto the manuscript is exactly what produces the over-planned, machine-visible feeling Phase 2 warns against. But going straight from a causal skeleton to prose (Phase 6) skips the actual work of discovering what belongs *between* pivots, in what order, and where a chapter should end — decisions that are structural, not sentence-level, and that a first draft written straight through tends to make by inertia rather than by test. This phase exists to make those decisions deliberately, while still keeping them provisional.
+
+For each narrative unit, answer:
+
+1. **Which beat (or beats) from the Phase 2 architecture does this unit carry?**
+2. **What ordinary, banal life surrounds the beat here** — the ostensible reason a reader (and the characters) would be in this scene at all, independent of its structural function?
+3. **What hypothesis does the reader leave this unit believing** — not what they've been told, what they'd now bet on?
+4. **Where, specifically, does the causal skeleton disappear from view** — the moment in this unit where a reader stops being able to see the architecture working, if it's working?
+
+**The wrong-place test:** check the instinct to end a unit immediately after its twist or its best line. That placement is often exactly where the machine becomes visible — the unit announcing its own structure by stopping the second it's delivered its payload. Test at least one alternative cut point (earlier, so the payoff lands inside ordinary continuing action rather than as a closer; or later, so something inconsequential absorbs the ending beat) before defaulting to the obvious one.
+
+**Allowed registers:** a sequencing document, explicitly marked as a discovery draft, not a fixed plan — state this in writing at the top of the document itself, since this is the register most likely to quietly harden into an outline that then gets defended rather than tested. One entry per unit: beat(s) carried, the four answers above, the cut-point decision and the alternative(s) rejected.
+
+**Do:** let this phase discover units the Phase 2 architecture never anticipated — connective or breathing scenes that exist to carry the four questions above for their surrounding units, not to add a new beat. Let it run concurrently with Phase 5 pilots: a unit's sequencing questions and a pilot testing that same unit's specific mechanism inform each other.
+
+**Refuse:** to treat a completed sequencing document as itself a table of contents to be defended — it remains a discovery document until Phase 6 drafting has tested it. If a unit doesn't survive contact with drafting, resequence rather than force the draft to match a plan that turned out to be wrong.
+
+**Ask the author:** For this stretch of the book, what's the ordinary reason anyone is where they are? Where would this unit end if you weren't trying to land the line?
+
+**Reopening:** a Phase 7 rhythm or artificiality finding (a unit that feels engineered, a cut that lands on the machine rather than past it) can send the project back here for that unit specifically, rather than straight to a Phase 6 rewrite with no structural rethink.
+
+---
+
+## Phase 5 — Pilot scenes
 
 **Entry condition:** a specific narrative mechanism needs testing before it's worth writing into the canonical draft — can begin as soon as Phase 2/3 produce a testable hypothesis, in parallel with ongoing Phase 1 research.
 
@@ -120,33 +151,33 @@ Each phase below has the same shape: **entry condition** (what must be true to s
 
 **Ask the author:** What's the one thing this pilot needs to prove works, specifically? What would make you say "no, cut this" even if you like how it reads?
 
-**Reopening:** rarely reopened directly — pilots feed forward into Phase 5. If a canonical scene isn't working and no pilot tested its specific mechanism, that's a sign to drop back and pilot it before continuing to revise it in place.
+**Reopening:** rarely reopened directly — pilots feed forward into Phase 6. If a canonical scene isn't working and no pilot tested its specific mechanism, that's a sign to drop back and pilot it before continuing to revise it in place.
 
 ---
 
-## Phase 5 — Canonical drafting
+## Phase 6 — Canonical drafting
 
 **Entry condition:** the scene has either a passed pilot behind it, or is judged simple/low-risk enough not to need one (a judgment call — narratively pivotal or structurally risky scenes should almost always have a pilot; connective or low-stakes scenes often don't need one).
 
 **Exit condition:** the scene is written.
 
-**The near-constitutional rule of this phase: do not audit a scene while writing it.** Write first. Examine later, in Phase 6, as a separate pass. This is not a productivity tip — it is a direct countermeasure to the project's central risk: a reader senses the machine because the author was sensing the machine constantly while building it. A scene drafted under continuous self-audit reads as controlled and machine-visible even when every individual line is defensible.
+**The near-constitutional rule of this phase: do not audit a scene while writing it.** Write first. Examine later, in Phase 7, as a separate pass. This is not a productivity tip — it is a direct countermeasure to the project's central risk: a reader senses the machine because the author was sensing the machine constantly while building it. A scene drafted under continuous self-audit reads as controlled and machine-visible even when every individual line is defensible.
 
-This also means: **Phase 5 is explicitly protected from the word-by-word economy discipline that governs Phase 9 procès corrections.** Counting and justifying every word belongs to surgical, post-freeze correction of a text that has already proven itself. Imposed on a first draft, it produces inhibited, over-controlled prose — the opposite of what a canonical draft needs. If you notice yourself (or the author) applying procès-style word-counting discipline during drafting, stop and name it explicitly as out of place here.
+This also means: **Phase 6 is explicitly protected from the word-by-word economy discipline that governs Phase 10 procès corrections.** Counting and justifying every word belongs to surgical, post-freeze correction of a text that has already proven itself. Imposed on a first draft, it produces inhibited, over-controlled prose — the opposite of what a canonical draft needs. If you notice yourself (or the author) applying procès-style word-counting discipline during drafting, stop and name it explicitly as out of place here.
 
 **Allowed registers:** the manuscript itself, plus routine continuity checks against the Phase 2 continuity register (geography, timeline, established facts) done *in the course of* drafting, not as a separate audit pass layered on top of writing.
 
-**Do:** verify concrete facts (geography, schedules, calendar, exact names) as they come up during drafting rather than deferring all of it to a later pass — fixing a wrong bus schedule the moment it's noticed is cheap; finding it in Phase 6 costs a re-read.
+**Do:** verify concrete facts (geography, schedules, calendar, exact names) as they come up during drafting rather than deferring all of it to a later pass — fixing a wrong bus schedule the moment it's noticed is cheap; finding it in Phase 7 costs a re-read.
 
-**Refuse:** to run any of the Phase 6 narrative audits, the Phase 7 factual audit, or a procès-style line edit *during* this phase, even if the author asks for feedback mid-draft on a specific worry. Redirect: finish the draft, then audit — say why, briefly, rather than just declining.
+**Refuse:** to run any of the Phase 7 narrative audits, the Phase 8 factual audit, or a procès-style line edit *during* this phase, even if the author asks for feedback mid-draft on a specific worry. Redirect: finish the draft, then audit — say why, briefly, rather than just declining.
 
-**Ask the author:** (mostly none — this phase is protected from interruption by design) — if the author brings mid-draft doubts, the one useful question is whether the doubt is about a fact (fix it now) or about quality/effect (hold it for Phase 6).
+**Ask the author:** (mostly none — this phase is protected from interruption by design) — if the author brings mid-draft doubts, the one useful question is whether the doubt is about a fact (fix it now) or about quality/effect (hold it for Phase 7).
 
 **Reopening:** N/A — this phase produces the draft that the rest of the process works on.
 
 ---
 
-## Phase 6 — Narrative audits
+## Phase 7 — Narrative audits
 
 **Entry condition:** a canonical draft (of a scene, chapter, act, or the whole manuscript) exists.
 
@@ -176,11 +207,11 @@ An enormous amount of novelistic over-explanation comes from confusing these thr
 
 **Ask the author:** For this scene, which of the seven audits above are you actually worried about? (Focuses the pass; running all seven with equal suspicion on a huge manuscript is expensive and usually unnecessary.)
 
-**Reopening:** a finding here can send the project back to Phase 2 (architecture doesn't hold), Phase 3 (character inconsistency), or straight back to Phase 5 for a rewrite — record which, and why, in the finding log.
+**Reopening:** a finding here can send the project back to Phase 2 (architecture doesn't hold), Phase 3 (character inconsistency), or straight back to Phase 6 for a rewrite — record which, and why, in the finding log.
 
 ---
 
-## Phase 7 — Documentary / factual audit
+## Phase 8 — Documentary / factual audit
 
 **Entry condition:** the manuscript contains claims presented as real-world fact (history, science, institutional process, real places/events) — skip this phase entirely for novels that don't.
 
@@ -201,13 +232,13 @@ Classify every such claim into exactly one of these, and **do not let a strong r
 
 **Ask the author:** Which factual claims in this manuscript would most damage the book's credibility if wrong? Start verification there.
 
-**Reopening:** a factual error found late (even post-freeze) is one of the few things that can reopen a frozen manuscript directly as an objectifiable error (see Phase 9) — no procès required for a pure factual correction, though the correction should still be minimal and localized.
+**Reopening:** a factual error found late (even post-freeze) is one of the few things that can reopen a frozen manuscript directly as an objectifiable error (see Phase 10) — no procès required for a pure factual correction, though the correction should still be minimal and localized.
 
 ---
 
-## Phase 8 — External readers
+## Phase 9 — External readers
 
-**Entry condition:** internal audits (Phase 6-7) are substantially run for broad beta reading. For a narrow, single-mechanism test on a specific worry, entry is much earlier — right after Phase 4/5 produce the scene in question — because some defects (boredom, confusion, failure to attach to a character) are ones the author is structurally worst-positioned to detect through more self-audit.
+**Entry condition:** internal audits (Phase 7-8) are substantially run for broad beta reading. For a narrow, single-mechanism test on a specific worry, entry is much earlier — right after Phase 5/6 produce the scene in question — because some defects (boredom, confusion, failure to attach to a character) are ones the author is structurally worst-positioned to detect through more self-audit.
 
 **Exit condition:** reader responses have been collected, classified by evidence-doctrine category, and either converged into a clear, actionable signal or explicitly logged as inconclusive.
 
@@ -221,13 +252,13 @@ Classify every such claim into exactly one of these, and **do not let a strong r
 
 **Refuse:** to silently upgrade "these two fixes are technically compatible, we could do both" to "these two readers actually agree" — compatibility of fixes and agreement of readers are different claims; conflating them has produced real errors in past use of this method.
 
-**Ask the author:** Before sending the manuscript out — what threshold will actually trigger a reopening? Fix this *before* reading responses, not after seeing whether you like them (this is Phase 9's freeze threshold, and it should already be decided by the time reader responses arrive).
+**Ask the author:** Before sending the manuscript out — what threshold will actually trigger a reopening? Fix this *before* reading responses, not after seeing whether you like them (this is Phase 10's freeze threshold, and it should already be decided by the time reader responses arrive).
 
-**Reopening:** this phase's entire output either triggers Phase 9's reopening criteria or it doesn't — see Phase 9. Don't let a compelling-sounding but unlocalized preference from a reader reopen anything on its own.
+**Reopening:** this phase's entire output either triggers Phase 10's reopening criteria or it doesn't — see Phase 10. Don't let a compelling-sounding but unlocalized preference from a reader reopen anything on its own.
 
 ---
 
-## Phase 9 — Freeze & procès
+## Phase 10 — Freeze & procès
 
 **Entry condition:** internal audits and (at least one round of) external reading are complete; the author is willing to commit to a canonical text.
 
@@ -248,24 +279,24 @@ Classify every such claim into exactly one of these, and **do not let a strong r
 
 **Ask the author:** each time a possible reopening arises — is this an objectifiable error, or does it need a procès? If a procès, what is its single, bounded object? (Never let a procès's object drift wider once fixed.)
 
-**Reopening:** by definition, this phase only reopens narrowly, via the two paths above, one bounded object at a time. It does not "exit" back to earlier phases except in the rare, serious case of a Phase 7-grade factual error significant enough to require re-examining a whole documentary thread — treat that as an exceptional event, not routine.
+**Reopening:** by definition, this phase only reopens narrowly, via the two paths above, one bounded object at a time. It does not "exit" back to earlier phases except in the rare, serious case of a Phase 8-grade factual error significant enough to require re-examining a whole documentary thread — treat that as an exceptional event, not routine.
 
 ---
 
-## Phase 10 — Production
+## Phase 11 — Production
 
 **Entry condition:** a frozen (or at-least-currently-stable) canonical text exists.
 
 **Exit condition:** N/A — production can run indefinitely and repeatedly (new formats, new editions, cover revisions) without ever touching this phase's own gate condition, which is exactly the point.
 
-**The governing separation:** production (typography, layout, output formats, cover design, packaging) is categorically different from the "repasse rédactionnelle" (content revision) that Phase 9 tightly controls. Production never modifies the frozen source text — it reads it and derives output. This separation should be structural, not just a stated intention: whatever tooling generates output formats should read the frozen text as an immutable input and write to a separate derived file, so that a production fix (fixing a typographic widow, a bad line break, an EPUB rendering bug) can never accidentally become a content edit, and so content edits are never smuggled in "while we're in there anyway."
+**The governing separation:** production (typography, layout, output formats, cover design, packaging) is categorically different from the "repasse rédactionnelle" (content revision) that Phase 10 tightly controls. Production never modifies the frozen source text — it reads it and derives output. This separation should be structural, not just a stated intention: whatever tooling generates output formats should read the frozen text as an immutable input and write to a separate derived file, so that a production fix (fixing a typographic widow, a bad line break, an EPUB rendering bug) can never accidentally become a content edit, and so content edits are never smuggled in "while we're in there anyway."
 
 **Allowed registers:** a production changelog (what changed, in the output pipeline, and why) — kept separate from the procès log, because production changes don't need procès justification; they're typography, not content.
 
-**Do:** verify production output against the frozen source after every pipeline change — a rendering bug (a silently dropped element, a mis-encoded character, an unwanted duplicate section) is still a defect even though it never touches "the text" in the Phase 9 sense.
+**Do:** verify production output against the frozen source after every pipeline change — a rendering bug (a silently dropped element, a mis-encoded character, an unwanted duplicate section) is still a defect even though it never touches "the text" in the Phase 10 sense. When deriving more than one output format from the same source (print PDF, EPUB, etc.), check each structural marker (a scene break, a part boundary, a frontmatter page break) against **every** target format separately — a marker coded for one rendering engine (e.g. a raw LaTeX block) commonly has no equivalent for another (e.g. an EPUB/pandoc writer), so it renders correctly in one output and silently vanishes or duplicates in another. This is a distinct failure mode from a single-format bug and needs its own check per format, not just a general "does it look right" pass on whichever format was checked first.
 
-**Refuse:** to let a production-phase observation ("this sentence reads awkwardly in this typeface/format") become a content edit without going through Phase 9's reopening criteria like anything else. Production revealing an awkward sentence is not different, procedurally, from a reader revealing one.
+**Refuse:** to let a production-phase observation ("this sentence reads awkwardly in this typeface/format") become a content edit without going through Phase 10's reopening criteria like anything else. Production revealing an awkward sentence is not different, procedurally, from a reader revealing one.
 
 **Ask the author:** for any output format or packaging decision that touches presentation of authorship, title, or framing (not just layout) — these are editorial identity decisions, not typography, and should be treated with the same deliberateness as a Phase 0 contract decision, not defaulted by whatever the production tooling happens to do.
 
-**Reopening:** production issues never reopen Phase 9 on their own — if a production pass reveals the text itself needs a change (not just its rendering), that's a Phase 9 reopening on its own separate merits.
+**Reopening:** production issues never reopen Phase 10 on their own — if a production pass reveals the text itself needs a change (not just its rendering), that's a Phase 10 reopening on its own separate merits.
