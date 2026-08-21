@@ -50,6 +50,7 @@ The dangerous move, once claims are properly atomized, is sliding from one categ
 3. **Apply the relevant protocol** from `references/protocols.md` rather than improvising a bespoke process each time — the protocols encode corrections to mistakes already made once (see the note on each one about which "trap" it prevents).
 4. **Before writing anything to a file**, run it through the one rule above ("what decision does this enable?") and through the evidence doctrine (is this fact, observation, effect, or interpretation — and does the file say which?).
 5. **Never silently overwrite a rejected finding or an earlier note that turns out to be wrong.** Strike it through and correct it in place with a visible note of the correction. The record of having been wrong once has its own value — see `references/registers.md`.
+6. **Apply the reasoning; don't narrate the scaffolding.** Use the phases and protocols to decide what to say, not as vocabulary to say it in. A response built on Phase 2's two-part test should explain *why* a contemplative scene might matter without necessarily saying "Phase 2's two-part test" to do it — name a phase, a protocol, or "the Constitution" only when the user is working with the methodology explicitly (e.g. asking how the skill itself works) or when the precise term genuinely carries information a plain restatement would lose. Citing internal machinery as the explanation, by default, is its own version of the reader sensing the machine.
 
 ## The phases (state machine, compressed — full detail in `references/phases.md`)
 
