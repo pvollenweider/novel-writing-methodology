@@ -14,9 +14,13 @@ Keep every register as a plain, append-only log where practical (add entries, co
 **Decision it enables:** what to actually write into the book versus deliberately keep out of it.
 - Plot-critical fact / comprehension material / verisimilitude detail / **known-but-not-shown** — one line each, with the bucket assignment stated (not left implicit).
 
+### Exploration candidates log (Phase 2, as needed)
+**Decision it enables:** which of several genuinely different developments actually gets built into the architecture, on the strength of its consequences rather than which one was most fun to write.
+- Candidate, its consequences (decision forced, relationship changed, information cost, what it forecloses, what it uniquely enables), selected/rejected, one line why. See the exploration protocol in `protocols.md`. Skip this register entirely when generation was trivial (one obvious option) — it exists for genuinely divergent inventing, not routine plotting.
+
 ### Architecture map (Phase 2)
 **Decision it enables:** whether a beat earns its place before it's ever drafted, and whether the causal chain actually holds together.
-- Beat, causal link to prior beat(s), the mandatory question's answer ("if cut, what becomes impossible"), and — explicitly — whether any quantitative target mentioned is an estimate or (flagged, ideally never) a hard target.
+- Beat, causal link to prior beat(s), both halves of the mandatory question's answer ("if cut, what becomes impossible" and, if nothing, "what becomes meaningfully different for the reader"), and — explicitly — whether any quantitative target mentioned is an estimate or (flagged, ideally never) a hard target.
 
 ### Continuity register (Phase 2, checked through Phase 7-8)
 **Decision it enables:** catching silent drift in a fact established once, before a reader does — including structural facts, not only diegetic ones.

@@ -30,6 +30,17 @@ Write both criteria down before touching the text.
 
 ---
 
+## The exploration protocol (generation before selection)
+
+Used whenever the task is genuinely inventive — "what could happen between these two established points," "what could this character do here," "what's the missing beat" — as opposed to testing or auditing something that already exists. This is the counterpart to the drafting/audit separation (Phase 6): applying selection criteria while still generating options collapses the space of what gets considered before it's actually been explored, and produces the same machine-visible, over-controlled result that auditing mid-draft produces at the sentence level.
+
+1. **Generate divergently, without justification.** Produce several genuinely different developments — not variations on the same idea — without requiring any of them to defend its right to exist yet. Some should be allowed to be bad, redundant, or mutually exclusive with each other; that range is what makes the next step informative. A generation pass that only produces options you'd already be willing to select is not actually exploring.
+2. **For each candidate, work out its consequences before judging it.** What decision does it force on a character? What relationship does it change, and how? What information changes hands, and at what cost to whoever loses control of it? What does it foreclose — which future developments does choosing this one make impossible or much harder? What does it make possible that the other candidates don't?
+3. **Compare on that basis, not on which one you liked writing.** A candidate that forecloses the most and enables the least is a weak choice even if a single line of it reads well; a candidate that opens real pressure and cost is worth the write-up even if its draft language is rough — draft quality at this stage is not yet evidence.
+4. **Select, and only then apply architecture-level criteria** — the Phase 2 mandatory question, causal fit, whether it pays off an existing promise — to the winner. Rejected candidates are worth a one-line record of why, for the same reason a rejected pilot is (see the pilot log): a specific reason not to repeat is more useful than a vague sense that other options existed.
+
+---
+
 ## The crash-test protocol
 
 Used to test a hypothesis of the shape "this is too long / too short / could be cut / needs more" — anywhere quantitative intuition needs to be checked against an actual test rather than trusted directly.
@@ -76,10 +87,11 @@ For a scene or passage under suspicion of over-explaining:
 ## The factual audit (operationalizing Phase 8)
 
 1. Extract every claim in the manuscript presented as fact about the real world (not fictional-world facts, which are Phase 2/7 continuity concerns instead).
-2. Classify each: factual truth / plausibility / internal coherence / narrative effectiveness (see Phase 8 in `phases.md` for what each means).
-3. Rank by risk — a claim central to the plot's credibility outranks a claim that's pure incidental color — and verify in that order, not manuscript order.
-4. For each claim, record the verification source and tier (primary/official, secondary-quality, unofficial compilation), and mark explicitly as **unresolved** anything that couldn't be checked, rather than defaulting to either accepting or silently cutting it.
-5. Log corrections the same way any other finding is logged: what changed, and why, distinguishing a pure fact correction (no procès needed, Phase 10 path (a)) from a correction that also touches how the fact is *used* narratively (which may need a procès, Phase 10 path (b), if the manuscript is already frozen).
+2. For each, attribute it first: narrator assertion, character's stated belief, character's knowing lie, or deliberate unresolved ambiguity (see Phase 8 in `phases.md`). Only narrator assertions and checkable character beliefs proceed to step 3 as truth-verification candidates; a lie or an intentional ambiguity is not a factual-truth defect regardless of what it says.
+3. Classify each remaining claim: factual truth / plausibility / internal coherence / narrative effectiveness (see Phase 8 in `phases.md` for what each means).
+4. Rank by risk — a claim central to the plot's credibility outranks a claim that's pure incidental color — and verify in that order, not manuscript order.
+5. For each claim, record the verification source and tier (primary/official, secondary-quality, unofficial compilation), and mark explicitly as **unresolved** anything that couldn't be checked, rather than defaulting to either accepting or silently cutting it.
+6. Log corrections the same way any other finding is logged: what changed, and why, distinguishing a pure fact correction (no procès needed, Phase 10 path (a)) from a correction that also touches how the fact is *used* narratively (which may need a procès, Phase 10 path (b), if the manuscript is already frozen).
 
 ---
 

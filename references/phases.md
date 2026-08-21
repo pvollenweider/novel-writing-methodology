@@ -48,6 +48,8 @@ Each phase below has the same shape: **entry condition** (what must be true to s
 
 **Exit condition:** every major beat of the story has, at minimum, an answer to the mandatory question below, and the causal chain between beats holds — event B is possible/necessary *because* of event A, not merely sequenced after it.
 
+**Before mapping causal beats, generate them separately from selecting among them.** When inventing what happens — between two established points, in response to a character's situation, to fill a gap the architecture reveals — don't require each candidate development to justify itself as it's produced; generate several genuinely different ones, including ones that will turn out to be wrong, redundant, or mutually exclusive. Only then, for each candidate, ask: what decision does it force, what relationship does it change, what information changes hands and at what cost, what future possibility does it close off, and what does it make possible that the alternatives don't? Select using those answers — see the exploration protocol in `protocols.md`. Running selection criteria *during* generation is the same mistake Phase 6 protects canonical drafting against, one phase earlier.
+
 **This is the phase most existing "book governance" methods skip entirely**, and its absence is what makes a project intellectually rigorous without the story actually working. Work through, at minimum:
 
 - **Desires and needs** for each major character — not the same thing; a want is conscious and stated (even to themselves), a need is what the story's shape suggests they actually require, and the gap between the two is usually where the story lives.
@@ -58,11 +60,12 @@ Each phase below has the same shape: **entry condition** (what must be true to s
 - **How relationships evolve** — state-to-state, not just "conflict happens." What does the relationship look like before and after this beat, specifically?
 - **Narrative promises and their payment** — anything the text implies will matter later must matter later, in a form the reader can recognize as the payoff.
 
-**The mandatory question, applied to every scene in the architecture, before any scene is trusted:**
+**The mandatory question, applied to every scene in the architecture, before any scene is trusted — asked in two parts, not one:**
 
 > *If this scene disappeared, what becomes impossible later?*
+> *If nothing becomes impossible, what becomes meaningfully different for the reader — what they know, feel, suspect, or how they read something else?*
 
-"It provides atmosphere" or "it establishes tone" can be a legitimate answer — but the discipline is knowing that's the answer being given, in writing, rather than assuming every scene is load-bearing by default. A scene with no answer at all is a candidate for cutting before it's ever drafted.
+The first question tests causal load-bearing and is the one most existing methods (and an unguarded reading of this one) stop at — but a scene can be indispensable for changing how a reader interprets something without making any later event impossible, and a purely causal test will misclassify that scene as cuttable. Only when *both* answers are genuinely "nothing" is there a real presumption of unnecessity. "It provides atmosphere" or "it establishes tone" can be a legitimate answer to the second question — but the discipline is knowing that's the answer being given, in writing, rather than assuming every scene is load-bearing by default, and rather than only ever asking the first, causal-only version of the test.
 
 **Allowed registers:** an architecture map (beats, causal links, the mandatory-question answer per beat); a continuity register (facts established once that must not silently drift — a birthdate, a distance, a promise made). Do **not** let quantitative targets (a target scene count, a target chapter count) become anything more than a rough estimate for planning — write down explicitly, at the moment such a number is first used, that it is an estimate and not a target, so it can't quietly harden into one later.
 
@@ -217,7 +220,9 @@ An enormous amount of novelistic over-explanation comes from confusing these thr
 
 **Exit condition:** every factual claim identified has been classified and, where the classification requires it, externally verified.
 
-Classify every such claim into exactly one of these, and **do not let a strong result in one column substitute for checking another**:
+**Before classifying a claim's truth, locate whose claim it is and what kind.** A real-world assertion in the text can be the narrator's own (checkable, and if wrong, an objectifiable error under Phase 10), a character's stated belief (checkable against reality, but being wrong is not a manuscript defect if the character is written to be wrong — the defect question, if any, is whether the text signals the belief is false where that matters), a character's knowing lie (correct as written precisely when factually wrong), or a deliberate, unresolved ambiguity the text never settles (not a candidate for external verification at all). Running this audit without making that attribution first is how a factual audit becomes overzealous — "correcting" a lie, a wrong belief, or an intentional ambiguity as if it were the narrator's error.
+
+Classify every claim that turns out to be a narrator assertion or a checkable character belief into exactly one of these, and **do not let a strong result in one column substitute for checking another**:
 
 - **Factual truth** — is it actually correct, checked against a source outside the book?
 - **Plausibility** — would it be believed as true within the story's world, independent of whether it is?

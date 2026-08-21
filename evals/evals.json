@@ -69,6 +69,81 @@
         "Response specifies verification criteria to check the fix against before or as part of proposing it, including the symmetric failure mode of over-explaining/over-justifying the brother's motive rather than just supplying enough of it",
         "Response addresses word cost or minimality of the intervention explicitly, and signals that the correction should close (not implicitly invite further changes elsewhere) once made"
       ]
+    },
+    {
+      "id": 6,
+      "eval_name": "restraint-premature-audit",
+      "type": "anti-eval",
+      "prompt": "I just wrote this in one sitting, it's rough: [a two-paragraph scene where a woman stands in her dead mother's kitchen, opens a drawer of takeout menus, and starts crying over a menu from a restaurant that closed years ago, then stops and puts the kettle on]. I don't know what this is yet. What could this become?",
+      "expected_output": "This is an anti-eval: it tests whether the skill knows when NOT to engage its own machinery, not whether it applies the method correctly. The user has explicitly signaled this is raw, exploratory material ('I don't know what this is yet') and asked a generative question ('what could this become'), not a diagnostic one. The naive failure mode for a methodology-heavy skill is to respond with an audit anyway -- running the information audit, asking for the seven character questions, demanding the Phase 2 mandatory question be answered, or otherwise treating one sentence of freshly-written prose as a finished unit to be tested. A good response should recognize this as exploration (see the exploration protocol) and respond generatively -- offering genuinely different directions the material could go, or asking what pulled the user to write it -- without first demanding the material justify itself against any audit criteria. Machinery should remain invisible here, not because the skill doesn't apply, but because this is exactly the generation phase the skill explicitly protects from selection-stage criteria.",
+      "files": [],
+      "assertions": [
+        "Response does not open with or centrally structure itself around an audit, checklist, or the seven character questions applied to this two-paragraph fragment",
+        "Response does not demand the scene answer the Phase 2 'if this disappeared, what becomes impossible' question before treating it as usable material",
+        "Response treats the material generatively -- offering directions, associations, or questions about what draws the author to it -- rather than diagnostically",
+        "Response does not tell the user the scene is currently a failure, incomplete, or in need of fixing before establishing what it's even trying to be",
+        "Response's tone matches the register of someone helping think through raw material, not someone running a governance protocol"
+      ]
+    },
+    {
+      "id": 7,
+      "eval_name": "restraint-contemplative-scene-necessity",
+      "type": "anti-eval",
+      "prompt": "My novel is deliberately slow and contemplative -- an old man tending a garden over one season, not much 'happens' in the plot sense. There's a scene where he spends two pages just describing how he prunes a specific rose bush, a technique his late wife taught him, and nothing about it advances any plot thread -- no information is revealed, no relationship changes, no later scene depends on it. I keep wondering if I should just cut it since technically nothing later becomes impossible without it. Should I?",
+      "expected_output": "Anti-eval: tests whether the skill's own 'if this scene disappeared, what becomes impossible' test gets misapplied as an automatic cutting criterion for a novel whose actual engine isn't plot-causal. The user has already done the causal test correctly and gotten 'nothing.' The failure mode is affirming the cut on that basis alone. The skill (per the updated Constitution item 2 and the two-part Phase 2 test) should ask the second question -- what becomes meaningfully different for the reader if this is cut -- rather than treating a 'nothing becomes impossible' result as sufficient on its own, especially for a novel whose stated engine is not plot/causality-driven. A good response recognizes that a contemplative novel's engine can be voice, texture, or emotional accumulation, and that a scene doing real experiential work (grief, love, craft passed down) can be indispensable while failing a purely causal test.",
+      "files": [],
+      "assertions": [
+        "Response does not conclude the scene should be cut on the strength of the causal test alone ('nothing becomes impossible' = cut)",
+        "Response explicitly asks or addresses what becomes meaningfully different for the reader's experience if the scene is removed, not just what becomes causally impossible",
+        "Response acknowledges that this novel's engine (per the user's own description) may not be plot/causality, and that scene necessity should be judged against the actual engine of this specific book, not a generic causal-chain standard",
+        "Response does not imply that every legitimate scene must ultimately cash out in a causal or informational payoff",
+        "Response's final guidance leaves the decision to keep or cut genuinely open pending the second question's answer, rather than presenting the causal test's null result as already decisive"
+      ]
+    },
+    {
+      "id": 8,
+      "eval_name": "restraint-vague-reader-signal",
+      "type": "anti-eval",
+      "prompt": "One of my beta readers said 'something about chapter 9 bugged me but I can't put my finger on what.' That's literally all she gave me. I asked her to try again and she just said 'idk, it just felt off.' What do I do with this?",
+      "expected_output": "Anti-eval: tests the middle path between two failure modes -- (1) dismissing the signal entirely because it's unlocalized ('not actionable, ignore it'), and (2) accepting a guessed cause in its place, either the reader's vague gesture at a cause or the assistant's own speculative diagnosis of what's 'probably' wrong with chapter 9. Per the evidence doctrine, 'it felt off' is a real reading effect even without a located cause, and per Phase 9's reopening criteria a single unlocalized signal doesn't clear the reopening threshold on its own -- but 'doesn't clear the threshold yet' is different from 'worthless, discard it.' The correct move is to log it as a real but currently sub-threshold signal, watch for whether it converges with anything else (another reader, the author's own reread, a later audit finding), and not manufacture a cause for it in the meantime.",
+      "files": [],
+      "assertions": [
+        "Response does not tell the user to simply discard or ignore the signal for lacking localization",
+        "Response does not propose a specific guessed cause for what's wrong with chapter 9 (e.g. guessing it's pacing, or a character issue) as if that guess were now established",
+        "Response explicitly frames the signal as real data (a reading effect) that is nonetheless not yet actionable/reopening-threshold-clearing on its own",
+        "Response proposes logging/holding the signal and watching for convergence (another reader, a self-reread, an audit finding) rather than either acting on it immediately or closing the matter",
+        "Response does not pressure the reader for more specificity in a way that implies her original report was insufficient as data"
+      ]
+    },
+    {
+      "id": 9,
+      "eval_name": "restraint-post-freeze-better-idea",
+      "type": "anti-eval",
+      "prompt": "My manuscript's been frozen for two weeks. I just had a genuinely better idea for how chapter 6 ends -- not fixing anything wrong, nothing's broken, I just thought of something that would make it better. No reader has flagged chapter 6 and I haven't found any error in it. Can I make the change?",
+      "expected_output": "Anti-eval: tests whether the skill can say no to a change the user themselves frames as an improvement, purely on process grounds, without the assistant being talked into treating 'it's better' as its own justification. Per Phase 10, an unlocalized preference -- even a good one, even the author's own -- does not meet the reopening bar (objectifiable error, or a convergent/precisely-localized external signal). The user has explicitly stated neither applies here. A good response holds this line clearly, explains why (freezing exists precisely to stop this kind of ungoverned improvement-by-inspiration, however good any single instance might be), and doesn't get talked out of it by the fact that the idea is, by hypothesis, actually better in isolation.",
+      "files": [],
+      "assertions": [
+        "Response declines to endorse making the change as described, given the user's own framing that nothing is broken and no external signal exists",
+        "Response does not accept 'it's genuinely better' as, by itself, grounds for reopening the freeze",
+        "Response explains the reasoning (freeze exists to stop exactly this kind of individually-plausible but ungoverned improvement) rather than just asserting a rule without why",
+        "Response does not suggest a workaround that effectively makes the change anyway (e.g. 'just log it as a tiny objectifiable fix') to satisfy the user's underlying wish",
+        "Response leaves the door open procedurally -- e.g. noting the idea could be revisited for a future edition/draft, or if an external signal about chapter 6 ever arises -- rather than treating the idea as simply lost or the user as wrong to have had it"
+      ]
+    },
+    {
+      "id": 10,
+      "eval_name": "restraint-intentional-character-falsehood",
+      "type": "anti-eval",
+      "prompt": "In my novel, a character claims that the Berlin Wall fell in 1991. This is deliberate -- he's a minor character who's established elsewhere as sloppy with facts and prone to confidently misremembering things, and another character quietly corrects him a page later. A beta reader flagged 'the Berlin Wall date is wrong' as a factual error I should fix. Should I change it?",
+      "expected_output": "Anti-eval: tests whether the skill's constitutional commitment to factual truth ('factual truth, once claimed as truth inside the book, is non-negotiable') gets misapplied to a claim that is a character's deliberate, narratively-signaled error rather than a narrator assertion. Per the updated Constitution item 7 and the Phase 8 attribution step, the first move should be locating whose claim this is (a sloppy character's misremembering, explicitly corrected on the page) before treating it as a factual-audit defect at all. A good response should recognize this is not a factual error to fix -- the 'error' is doing characterization work exactly as designed -- and should not recommend changing the date to 1989.",
+      "files": [],
+      "assertions": [
+        "Response does not recommend changing the character's stated date to the historically correct 1989",
+        "Response explicitly identifies that the claim belongs to a character (established as unreliable) rather than to the narrator, before evaluating it as a truth claim",
+        "Response recognizes the on-page correction by another character as evidence the 'error' is intentional and already narratively handled, not an oversight",
+        "Response distinguishes this case from a genuine factual audit finding (a narrator assertion or an uncorrected, uncontextualized character claim presented as simply true)",
+        "Response does not treat the beta reader's flag as automatically correct simply because it named a real historical fact"
+      ]
     }
   ]
 }
