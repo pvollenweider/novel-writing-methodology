@@ -38,7 +38,15 @@ No version discriminates. Claude's default judgment on triaging beta-reader feed
 
 Real gap. The without-skill response correctly avoided recommending more backstory and reframed toward present-tense wants, but never named self-deception / wrongly-held belief / concealment as more character-defining than biography, and never produced an explicit pressure/forced-choice test comparable to the skill's "write it, don't assert it" test — it substituted a want/cost sentence exercise instead.
 
+## Eval 5 — post-freeze-correction-discipline
+
+| | With skill | Without skill |
+|---|---|---|
+| Pass rate | 5/5 | 2/5 |
+
+Real gap, same shape as evals 1 and 4. Unlike eval 3, the reopening decision itself was not in question here (convergent, precisely localized, self-confirmed) — this tests the *execution* discipline once a fix is already justified. The without-skill response had good instincts (it independently warned against overcorrection and favored a minimal fix) but had no named discipline for containing scope, systematically testing and rejecting intervention locations in favor of one that extends an existing gesture, or closing the correction explicitly rather than inviting further open-ended engagement — it drifted toward planting new material earlier in the book rather than searching the text for something already there to extend. The with-skill response ran the full six-step procès protocol: object delimited in writing, three candidate locations tested and rejected with stated reasons, symmetric before-the-fact criteria, word-cost accounting, and explicit closure — including naming "no change" as a legitimate outcome if no candidate passes.
+
 ## Takeaways
 
-- The skill's marginal value is concentrated where Claude's unassisted judgment lacks a specific *named mechanism* to reach for (the research-bucket distinction in eval 1, self-deception/pressure-test in eval 4) — not in domains where default judgment already tracks good practice (eval 3).
+- The skill's marginal value is concentrated where Claude's unassisted judgment lacks a specific *named mechanism* to reach for (the research-bucket distinction in eval 1, self-deception/pressure-test in eval 4, scope-delimitation/candidate-rejection/closure in eval 5) — not in domains where default judgment already tracks good practice (eval 3).
 - Raw materials (full transcripts, per-run `grading.json`, aggregated `benchmark.json`/`.md`, browsable `review.html`) are not committed to this repo — they're working artifacts, not part of the skill or its documentation.

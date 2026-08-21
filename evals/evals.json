@@ -55,6 +55,20 @@
         "Response emphasizes what the character would actually do under pressure or a forced choice as a test of character, not just interiority or backstory",
         "Response does not recommend expanding or adding to the three-page bio document as the primary fix"
       ]
+    },
+    {
+      "id": 5,
+      "eval_name": "post-freeze-correction-discipline",
+      "prompt": "My novel's been frozen for about a month. Three beta readers, independently, all said the same thing: they didn't understand why my protagonist's brother helps her break into the lawyer's office in chapter 14, since as far as they can tell he has no reason to risk it. Three people converging on the same confusion in the same chapter feels like real signal to me. I went back and reread chapter 14 and yeah, I see it too -- I never actually establish why he'd do this. I'm ready to fix it. What's the best way to handle this?",
+      "expected_output": "This tests Phase 9's procès protocol specifically at the execution stage, not the triage stage (unlike eval 3, where the reopening decision itself was in question). Here the reopening is already clearly justified -- convergent, precisely localized, the author has independently confirmed the defect -- so a good response should not spend time re-litigating whether to act. The naive/generic move at this point is to treat 'I'm ready to fix it' as license for an open-ended revision pass: rewrite the chapter, add a scene, or otherwise expand scope to whatever feels narratively satisfying. The skill instead specifies the procès protocol: delimit the object to exactly this defect (the brother's unestablished motive) and explicitly set aside anything else noticed along the way; search for the least visible point of intervention (ideally one that extends something the text already does, e.g. a habit or dynamic between the siblings established elsewhere, rather than inventing a new scene or a new device); write fix-verification criteria before drafting anything, checked in both directions (does the reader now have what they need, and does the fix over-explain / start telling the reader what to feel about the motive rather than just supplying it); execute at the minimum word cost and state that cost; and close by explicitly naming what was fixed, what was deliberately left alone, and that this procès does not license a broader revision pass. A good response should also treat 'no defensible minimal fix is found' as a legitimate possible outcome, not something to be avoided at all costs.",
+      "files": [],
+      "assertions": [
+        "Response does not treat the reopening decision as still open for debate, given the user already has independent convergence, precise localization, and self-confirmation -- it moves to how to fix rather than whether to",
+        "Response explicitly delimits the fix to the single defect described (the brother's unestablished motive) and does not expand scope into a general revision pass over chapter 14 or the surrounding chapters",
+        "Response looks for the least visible point of intervention -- e.g. preferring an addition that extends an existing established dynamic, habit, or line of dialogue over inventing a new scene or a new expository device -- rather than defaulting to the most obvious/first fix",
+        "Response specifies verification criteria to check the fix against before or as part of proposing it, including the symmetric failure mode of over-explaining/over-justifying the brother's motive rather than just supplying enough of it",
+        "Response addresses word cost or minimality of the intervention explicitly, and signals that the correction should close (not implicitly invite further changes elsewhere) once made"
+      ]
     }
   ]
 }
