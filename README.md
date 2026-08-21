@@ -57,7 +57,8 @@ novel-writing-methodology/
     └── registers.md             — templates for the registers this skill allows, each with its
                                     one-line justification (per "the one rule above the others")
 └── evals/
-    └── evals.json                — test prompts used to validate the skill (see below)
+    ├── evals.json                — test prompts used to validate the skill (see below)
+    └── results.md                — scored with/without-skill comparisons
 ```
 
 `SKILL.md` itself stays short by design (progressive disclosure): Claude reads it first, then follows pointers into the relevant `references/*.md` file only for the phase actually in play.
@@ -68,7 +69,7 @@ novel-writing-methodology/
 
 ## License
 
-*(not yet chosen — add one before treating this as open for reuse by others)*
+MIT — see `LICENSE`.
 
 ## Origin
 
