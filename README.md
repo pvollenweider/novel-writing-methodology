@@ -48,10 +48,10 @@ Start Claude Code in a directory where the skill is visible (per option A or B a
 
 Give Claude your manuscript (or describe where you are with it) and tell it what you need: a cold editorial diagnosis, help developing a draft, or a rigorous revision of an existing manuscript. The skill handles the methodology and picks the appropriate phase itself — you don't need to name a phase, invoke a rule, or reproduce any of `SKILL.md`'s structure in your prompt.
 
-- **When to use it:** any stage of a novel-in-progress — early research and architecture, drafting, scene-level diagnosis, reconciling reader feedback, deciding whether a manuscript is ready to freeze, or disciplined post-freeze correction. It also applies to narrower asks that are really one phase of this — "does this scene earn its place," "am I over-explaining this," "how do I make sense of conflicting beta reads."
+- **When to use it:** any stage of work on a novel — early research and architecture, drafting, scene-level diagnosis, reconciling reader feedback, deciding whether a manuscript is ready to freeze, or disciplined post-freeze correction. It also applies to narrower asks that are really one phase of this — "does this scene earn its place," "am I over-explaining this," "how do I make sense of conflicting beta reads."
 - **How to invoke it:** nothing special — just ask, in your own words, as part of a normal Claude Code conversation in a directory where the skill is installed (see above). Claude decides whether the request falls under this skill.
 - **What to provide:** the manuscript or excerpt itself (as files, or pasted), plus whatever context actually changes the answer — the stage you think you're at, prior reader feedback, or a specific worry. Don't pre-digest it into a phase or protocol name.
-- **What it will do:** locate what phase the project is actually in (not what you assume), read the relevant `references/*.md` file for that phase, and apply the constitution and evidence doctrine from there — diagnosis before prescription, always.
+- **What it will do:** determine which part of the methodology is relevant to the task and the project's current state, read the corresponding `references/*.md` guidance, and apply the constitution and evidence doctrine from there — diagnosis before prescription, always.
 
 Examples, phrased as intent rather than method:
 
