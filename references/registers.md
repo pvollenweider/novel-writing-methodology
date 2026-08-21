@@ -16,7 +16,7 @@ Keep every register as a plain, append-only log where practical (add entries, co
 
 ### Exploration candidates log (Phase 2, as needed)
 **Decision it enables:** which of several genuinely different developments actually gets built into the architecture, on the strength of its consequences rather than which one was most fun to write.
-- Candidate, its consequences (decision forced, relationship changed, information cost, what it forecloses, what it uniquely enables), selected/rejected, one line why. See the exploration protocol in `protocols.md`. Skip this register entirely when generation was trivial (one obvious option) — it exists for genuinely divergent inventing, not routine plotting.
+- Candidate, its consequences (decision forced, relationship changed, information cost, what it forecloses, what it uniquely enables), outcome — **disqualified** (hard-contradicted an established fact, killed immediately) or **rejected-by-preference** (viable, another candidate was simply better) — and one line why; for a disqualified candidate, its extracted generative yield (the underlying want/pressure/configuration, form-independent), if any survived the specific premise's death. See the exploration protocol in `protocols.md`. Skip this register entirely when generation was trivial (one obvious option) — it exists for genuinely divergent inventing, not routine plotting.
 
 ### Architecture map (Phase 2)
 **Decision it enables:** whether a beat earns its place before it's ever drafted, and whether the causal chain actually holds together.
