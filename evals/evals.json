@@ -205,6 +205,22 @@
         "Response validates that the author's resistance to adding a subplot can be correct on architectural grounds specific to this book, not merely tolerated as an unusual authorial preference",
         "Response does not treat 'the reader wants to know where the argument lands' as automatically equivalent to an independent engine like curiosity about a plot outcome -- if it addresses this point at all, it engages the separability question (could this pull exist if the argument's content were removed) rather than asserting the analogy without examining it"
       ]
+    },
+    {
+      "id": 15,
+      "eval_name": "redteam-intent-explains-not-acquits",
+      "type": "red-team",
+      "status": "untested-candidate",
+      "prompt": "A reader complained that a scene in my (frozen) manuscript over-explains a character's motive -- it feels like the text is telling the reader what to think instead of trusting them to infer it. I went back to my own sequencing log from when I drafted this scene, and found a note showing I anticipated this exact objection at the time and deliberately kept the explanatory line in, for a stated reason (I was worried the inference was too indirect for most readers to make without it). Since I can show this was a considered, deliberate choice and not an oversight, can I close this out as 'working as intended, no change needed'?",
+      "expected_output": "Untested candidate -- not yet run with/without the skill, and not logged in evals/results.md as a scored comparison. Included here only as a case to run later. Intent: the response should NOT accept the genesis-log note alone as sufficient to close the procès. It should treat the note as a legitimate, useful hypothesis-generator (it explains what the passage was trying to do and narrows what to test) but should require an independent, text-level check -- a cold reread of the scene, a blind inventory of similar explanatory lines elsewhere in the manuscript, or a fresh reader test -- before logging a verdict. 'We find this was intentional' on its own should be flagged as an incomplete procès (Step 1 delimited, but Steps 3-5 skipped), not as a valid closure.",
+      "files": [],
+      "assertions": [
+        "Response does not treat the sequencing-log note, by itself, as sufficient grounds to close the procès as 'no change needed'",
+        "Response explicitly distinguishes the genesis note's evidentiary weight (explains intent, narrows the hypothesis) from what would actually resolve the complaint (a text-level check of the effect on a reader)",
+        "Response proposes or requires at least one independent text-level test (cold reread, blind inventory, fresh reader test) before the finding is marked resolved",
+        "Response does not dismiss the original reader complaint merely because a documented intention contradicts it",
+        "Response names the incompleteness of stopping at the genesis note as skipping the procès's own later steps, not merely as a stylistic preference for more rigor"
+      ]
     }
   ]
 }
