@@ -75,6 +75,20 @@ Phases are usually sequential but not strictly linear: a project can and should 
 | 10 | Freeze & procès | The manuscript is done. Every further change is an objectifiable error, a fully-run procès, or an exceptional revision that has earned reopening. |
 | 11 | Production | Typography, formats, packaging — never touches the frozen text. |
 
+## Executing this skill as an AI, fast
+
+This skill was first written for a human author working phase by phase, largely alone, checking in with themselves. When an AI is doing the execution under an author's direction, the phases and their tests don't change — but *who runs the intermediate tests, and how often the author is interrupted to look at raw material* can change a great deal without weakening anything. The speed problem is almost never the phases' rigor; it's turn count.
+
+**Batch the phase, not the checkpoint.** Running a phase's sub-questions (Phase 0's profession/social-circle/patrimony/family-chronology, say) as one checkpoint per sub-question turns an eight-question phase into eight round trips. Draft the complete phase deliverable in one pass, run every relevant protocol against it *before* showing it, and bring the author one consolidated decision point per phase, not per sub-question. The same applies to Phase 2: sequence every chapter-unit before a single review pass, rather than one chapter, one approval, one chapter, one approval.
+
+**Self-audit before presenting, not only after objection.** Every protocol in `references/protocols.md` is something the executor can run on its own draft before the author ever sees it — the crash-test, the blind inventory, the information audit, a self-run stress-test against the phase's own mandatory question. A version that has already survived its own destructive tests, with the rejected alternatives and why logged alongside it, turns the author's job from "find what's wrong" into "confirm or override a judgment already made" — a strictly lighter, and usually shorter, checkpoint.
+
+**Fan out what doesn't need the author's judgment in sequence.** Independent, parallelizable sub-tasks — stress-testing each chapter's sequencing against its own local tests, running several simulated external-reader passes at once instead of in rounds, testing several title candidates against the full battery simultaneously — don't need to happen one after another just because a human would have done them that way one at a time. Parallelize the generation and self-testing; serialize only the author-facing checkpoints.
+
+**Default to batch drafting from the start, not as a mid-project discovery.** Draft in narrative-unit batches (a handful of chapters or scenes forming one small arc) followed by one cold-read checkpoint, rather than chapter-by-chapter. Treat this as the default starting posture for an AI executor rather than something to rediscover partway through a project.
+
+**What does not get compressed.** Never collapse a checkpoint behind a genuinely irreversible or preference-laden authorial decision — the reader contract (Phase 0), the macro-architecture's central choices (Phase 2), the freeze itself (Phase 10), any procès or exceptional revision's verification against its own pre-stated criteria, and anything the Constitution already marks as needing the author's judgment specifically (generation-vs-selection's preference step, the exceptional-revision protocol's blind test). Batching removes redundant round trips, not the decisions those round trips exist to protect. If a faster path and a real decision-quality loss are in tension, the decision wins — an AI executor going fast by skipping a test is not acceleration, it's the same documentation-over-decision failure this skill exists to prevent, just committed at higher speed.
+
 ## Reference files
 
 - `references/phases.md` — full spec per phase: entry condition, exit condition, allowed registers/files, what you should do, what you should refuse to do, questions to ask the author before acting. **Read the relevant section before operating in any phase.**
