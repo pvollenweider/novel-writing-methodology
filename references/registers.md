@@ -17,6 +17,8 @@ Keep every register as a plain, append-only log where practical (add entries, co
 ### Exploration candidates log (Phase 2, as needed)
 **Decision it enables:** which of several genuinely different developments actually gets built into the architecture, on the strength of its consequences rather than which one was most fun to write.
 - Candidate, its consequences (decision forced, relationship changed, information cost, what it forecloses, what it uniquely enables), outcome — **disqualified** (hard-contradicted an established fact, killed immediately) or **rejected-by-preference** (viable, another candidate was simply better) — and one line why; for a disqualified candidate, its extracted generative yield (the underlying want/pressure/configuration, form-independent), if any survived the specific premise's death. See the exploration protocol in `protocols.md`. Skip this register entirely when generation was trivial (one obvious option) — it exists for genuinely divergent inventing, not routine plotting.
+- A candidate logged here as rejected is not permanently closed: it can be revisited later under an **explicitly different, dated criterion** than the one it was rejected under (e.g. rejected in Phase 2 as "not narratively necessary," reopened in Phase 7 under "does it increase material texture") — log the reopening as a new entry referencing the original, stating the new criterion by name, not as a silent reversal of the earlier verdict.
+- **A structural element with strong surprise value (a twist, a reveal, a bifurcation) should be generated only after the characters or world meant to carry it already exist**, not before — generating it first and then retrofitting a character to deliver it tends to optimize the element for surprise rather than for truth to the character; log the order (element generated after its carriers existed, or before) as part of the candidate's entry so a premature generation is visible on review.
 
 ### Architecture map (Phase 2)
 **Decision it enables:** whether a beat earns its place before it's ever drafted, and whether the causal chain actually holds together.
@@ -73,6 +75,10 @@ Keep every register as a plain, append-only log where practical (add entries, co
 ### Methodology-error log (any phase)
 **Decision it enables:** preventing the same reasoning mistake from recurring silently across the project — this is the register most tempting to skip and most useful to keep.
 - What was claimed, why it was wrong, the correction (via visible strikethrough in the original note, referenced here), what to watch for next time.
+
+### Cycle-continuity register (any phase, for books that are part of a multi-book cycle)
+**Decision it enables:** whether a shared character, place, or fact recurring across independent books in the same world is being used consistently with what's already frozen — and whether an apparent link is confirmed continuity or an unconfirmed coincidence that should stay unconfirmed. See the cycle-continuity protocol in `protocols.md`.
+- Shared element, the frozen book(s) it appears in and every occurrence therein (exhaustive, not recalled), split into **locked** (asserted as fact, non-retconnable) and **open** (unaddressed, free to develop); status as **confirmed link** (asserted in at least one text) or **verified-consistent coincidence** (checked as non-contradictory, never asserted as the same — do not log this status as if it were confirmed continuity); any dated, reasoned deviation from a locked fact.
 
 ### Production changelog (Phase 11)
 **Decision it enables:** distinguishing a rendering/typography fix from a content edit, so production work never needs procès justification and content work is never smuggled in as "just a formatting fix."
