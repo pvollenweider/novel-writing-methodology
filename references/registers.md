@@ -58,7 +58,7 @@ Keep every register as a plain, append-only log where practical (add entries, co
 
 ### Freeze declaration (Phase 10)
 **Decision it enables:** what specifically counts as grounds for reopening, decided once, referred back to every time a reopening is considered, rather than re-litigated each time.
-- Date, the exact reopening threshold as stated (objectifiable error / convergent signal / precisely-localized single signal), what's explicitly declared as *not* meeting the threshold (a named example of a preference that doesn't qualify, if useful).
+- Date, the exact reopening threshold as stated (objectifiable error / convergent signal / precisely-localized single signal), what's explicitly declared as *not* meeting the threshold (a named example of a preference that doesn't qualify, if useful). When a procès or exceptional revision closes, note in this same declaration (or alongside it) that the exception is logged as exactly that — an exception, closed — and does not itself revise or loosen the threshold stated here. Without this explicit note, a closed exception can quietly start functioning as an informal precedent that makes the next borderline case look more clearly in-bounds than the original threshold actually allows.
 
 ### Title-selection log (near Phase 10, before or at freeze)
 **Decision it enables:** whether a title has actually survived a serious attempt to break it, versus merely being the first thing that sounded right — and keeping the reasoning attached so the title isn't quietly re-litigated from scratch later.
